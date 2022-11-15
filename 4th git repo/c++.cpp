@@ -1,5 +1,5 @@
-<include><iostream>
-using name space std;
+#include<iostream>
+using namespace std;
 class Number
 {
     public:
