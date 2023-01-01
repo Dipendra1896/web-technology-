@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/* common css */
+html,
+ body {
+ margin: 0px;
+ padding:0px;
+ font-family:'Arvo',serif;
+}
+/* header */
+.navbar-brand{
+    font-size:1.4rem;
+
+}
+.nav-link{
+    font-size:15px;
+}
+/* home */
+#home{
+    width:100%;
+    min-height:100vh;
+}
+#particles-js{
+    width:100%;
+    min-height: 100vh;
+    position:absolute;
+    top:0px;
+    left:0px;
+    background:seagreen;
+}
+#name{
+    font-size:4rem;
+    color:white;
+    text-align:center;
+    margin-top:16rem;
+    font-weight:bold;
+}
+#greeting{
+    font-size:2rem;
+    color:white;
+    text-align:center;
+    margin-top:1rem;
+}
+#learn-more{
+    padding:.4rem 1rem;
+    max-width:10rem;
+    margin:0 auto;
+    display:block;
+    border:2px solid white;
+    border-radius:1rem;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+
+}
+#learn-more:hover{
+    text-decoration:none;
+}
+#resume{
+    width:100%;
+    height:auto;
+    padding:2rem 0;
+} 
+#resume .card{
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:auto;
+}
+#resume .card img{
+    height:200px;
+}
+/* portfolio */
+#portfolio{
+width:100%;
+height:auto;
+padding:4rem 0;
+}
+#portfolio img{
+    margin-top:30px;
+    width:100%;
+    height:220px;
+
+}
+#portfolio .grid{
+    width:100%;
+    position:relative;
+}
+#portfolio .grid .overlay{
+    margin-top:30px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    width:100%;
+    position:absolute;
+    opacity:0;
+    transition:.5s ease;
+    background-color:pink;
+}
+#portfolio .grid:hover .overlay{
+    opacity:1;
+
+}
+.text{
+    color:white;
+    font-size:1rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+/* best friend list*/
+#friends{
+    width:100%;
+    height:auto;
+    padding:4rem 0;
+    }
+    #friends img{
+        margin-top:30px;
+        width:100%;
+        height:400px;
+    
+    }
+    #friends .grid{
+        width:100%;
+        position:relative;
+    }
+    #friends .grid .overlay{
+        margin-top:30px;
+        top:0px;
+        bottom:0px;
+        right:0px;
+        left:0px;
+        width:100%;
+        position:absolute;
+        opacity:0;
+        transition:.5s ease;
+        background-color:seagreen;
+    }
+    #friends .grid:hover .overlay{
+        opacity:0.5;
+    
+    }
+    .text{
+        color:white;
+        font-size:1rem;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        text-align:center;
+    }
+    /* contact */
+    #contact{
+        width:100%;
+        height:auto;
+        padding:1rem 0;
+    }
+    #contact form{
+        width:100% 
+    }
+    #contact form .submit-message{
+        margin-left:15px;
+        margin-right:15px;
+        background:#527cec;
+        color:white;
+    }
+    /* footer */
+    footer{
+        width:100%;
+        height:auto;
+        padding:2rem 0 4rem;
+    }
+    footer ul{
+        list-style:none;
+        padding-left: 80px;
+    }
+    footer .back-to-top{
+        display:block;
+        width:100%;
+        text-align:center;
+        text-decoration:none;
+        color:seagreen;
+    }
+    footer .back-to-top:hover{
+        text-decoration:none;
+        color:#527cec;
+    }
+    footer ul#social{
+        list-style:none;
+        padding-left:0;
+        text-align:right;
+    }
+    footer ul#social li{
+        display:inline-block;
+        margin-left:1rem;
+        
+    }
+    footer ul#social a{
+        text-decoration:none;
+        color:#333;
+        font-size:2rem;
+    }
+    footer ul#social a:hover{
+        text-decoration:none;
+        color:#527cec;
+    }
